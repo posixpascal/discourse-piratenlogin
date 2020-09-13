@@ -1,6 +1,6 @@
-en:
+de:
   piratenlogin:
-    alert_piratenlogin_not_allowed: xxx
+    alert_piratenlogin_not_allowed: "Du kannst die Anwendung im Moment nicht per Piratenlogin nutzen, da dir die erforderliche Rolle 'Piratenpartei Deutschland' fehlt. Nach der Registrierung kann es bis zu einer Stunde dauern, bis dein Account überprüft wurde und du Discourse nutzen kannst."
   site_settings:
     piratenlogin_enabled: Enable Piratenlogin authentication. Customize user interface text <a href='%{base_path}/admin/customize/site_texts?q=js.login.oidc'>here</a>
     piratenlogin_discovery_document: "Piratenlogin discovery document URL. Normally located at 'https://your.domain/.well-known/openid-configuration'"

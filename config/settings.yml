@@ -1,27 +1,23 @@
 plugins:
-  openid_connect_enabled:
+  piratenlogin_enabled:
     default: false
-  openid_connect_discovery_document:
+  piratenlogin_discovery_document:
     default: ""
-  openid_connect_client_id:
+  piratenlogin_client_id:
     default: ""
-  openid_connect_client_secret:
+  piratenlogin_client_secret:
     default: ""
-  openid_connect_allow_association_change:
-    default: false
-  openid_connect_overrides_email:
-    default: false
-  openid_connect_authorize_scope:
+  piratenlogin_authorize_scope:
     default: "openid"
-  openid_connect_verbose_logging:
+  piratenlogin_verbose_logging:
     default: false
-  openid_connect_token_scope:
+  piratenlogin_token_scope:
     default: ""
-  openid_connect_error_redirects:
+  piratenlogin_error_redirects:
     default: ''
     type: list
     list_type: secret
-  openid_connect_authorize_parameters:
+  piratenlogin_authorize_parameters:
     default: ''
     type: list
     list_type: compact

@@ -1,7 +1,7 @@
 en:
   js:
     login:
-      oidc:
-        name: "OpenID Connect"
-        title: "with OpenID Connect"
-        message: "Authenticating with OpenID Connect"
+      piratenlogin:
+        name: "Piratenlogin"
+        title: "with Piratenlogin"
+        message: "Authenticating with Piratenlogin"
