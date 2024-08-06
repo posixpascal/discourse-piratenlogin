@@ -12,10 +12,7 @@ require_relative "lib/piratenlogin_authenticator"
 auth_provider authenticator: PiratenloginAuthenticator.new()
 
 register_css <<CSS
-
-.btn-social.piratenlogin {
-  background: rgb(253, 195, 0);
-  color: black;
-}
+.sign-up-button { display: none !important; }
+.login-right-side { display: none !important; }
 CSS
 

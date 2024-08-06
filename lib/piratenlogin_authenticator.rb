@@ -66,12 +66,12 @@ class PiratenloginAuthenticator < Auth::ManagedAuthenticator
 
     result = Auth::Result.new
 
-    # Check required role for new users.
-    if association.user.nil? && !has_required_role
-      result.failed = true
-      result.failed_reason = I18n.t("piratenlogin.alert_piratenlogin_not_allowed")
-      return result
-    end
+#     # Check required role for new users.
+#     if association.user.nil? && !has_required_role
+#       result.failed = true
+#       result.failed_reason = I18n.t("piratenlogin.alert_piratenlogin_not_allowed")
+#       return result
+#     end
 
     # Reconnecting to existing account
     if can_connect_existing_user? && existing_account

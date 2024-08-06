@@ -1,7 +1,6 @@
 en:
-  js:
-    login:
-      piratenlogin:
-        name: "Piratenlogin"
-        title: "with Piratenlogin"
-        message: "Authenticating with Piratenlogin"
+  login:
+    piratenlogin:
+      name: "Piratenlogin"
+      title: "with Piratenlogin"
+      message: "Authenticating with Piratenlogin"
